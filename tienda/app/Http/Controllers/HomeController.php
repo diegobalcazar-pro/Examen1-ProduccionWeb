@@ -7,7 +7,7 @@ use App\Models\Producto;
 
 class HomeController extends Controller
 {
-    public function index()
+    public function home()
     {
         $allproductos = Producto::all();
 

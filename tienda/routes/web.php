@@ -6,6 +6,12 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\QuienesSomosController;
 use App\Http\Controllers\NoticiaController;
 
-Route::get('/', [HomeController::class, 'index']);
-Route::get('/quienessomos', [QuienesSomosController::class, 'index']);
-Route::get('/noticias', [NoticiaController::class, 'index']);
+Route::get('/',[\App\Http\Controllers\HomeController::class, 'home'])
+    ->name('home');
+
+Route::get('/quienessomos', function(){
+    return view('quienessomos');
+})->name('quienessomos');
+
+Route::get('noticias', [\App\Http\Controllers\NoticiaController::class, 'index'])
+    ->name('noticias.index');
