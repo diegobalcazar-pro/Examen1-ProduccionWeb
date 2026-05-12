@@ -106,23 +106,18 @@
         <div class="col-md-6">
 
             <h2 class="fw-bold mb-3">
-                Moda Urbana Moderna
+                ¡Preparate para el Mundial!
             </h2>
 
             <p class="text-muted">
-                En Tienda Urbana ofrecemos prendas modernas, cómodas y con estilo streetwear.
-                Nuestro objetivo es brindar ropa de calidad para quienes buscan destacar con un look auténtico.
+                En Tienda Urbana ofrecemos camisetas de la selección argentina, perfectas para los fanáticos del fútbol que quieren mostrar su pasión por el equipo nacional. Diseñadas con materiales de alta calidad y cuentan con detalles auténticos que rinden homenaje a los momentos históricos del fútbol argentino.
             </p>
 
         </div>
 
         <div class="col-md-6 text-center">
 
-            <img 
-                src="{{ url('images/banner.png') }}"
-                alt="Moda Urbana"
-                class="img-fluid rounded"
-            >
+            <img src="{{ url('images/banner4.png') }}" alt="Camiseta de Argentina 2026" class="img-fluid rounded">
 
         </div>
 
