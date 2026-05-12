@@ -33,6 +33,26 @@ class ProductoSeeder extends Seeder
         'categoria' => 'Buzos',
         'created_at' => now(),
         'updated_at' => now(),
+    ],
+    [
+        'nombre' => 'Pantalón Jean',
+        'descripcion' => 'Pantalón Jean celeste',
+        'precio' => 20000,
+        'imagen' => 'pantalon.jpg',
+        'stock' => 8,
+        'categoria' => 'Pantalones',
+        'created_at' => now(),
+        'updated_at' => now(),
+    ],
+    [
+        'nombre' => 'Campera roja',
+        'descripcion' => 'Campera roja reversible',
+        'precio' => 45000,
+        'imagen' => 'campera.jpg',
+        'stock' => 7,
+        'categoria' => 'Camperas',
+        'created_at' => now(),
+        'updated_at' => now(),
     ]
 ]);
     }

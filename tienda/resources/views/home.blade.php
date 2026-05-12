@@ -4,84 +4,127 @@
     Home
 </x-slot:title>
 
-<section class="text-center py-5 bg-dark text-white rounded mb-5">
-    <h1 class="display-4 fw-bold">
-        Tienda Urbana
-    </h1>
 
-    <p class="lead mt-3">
-        Descubrí las últimas tendencias en ropa urbana, oversize y streetwear.
-    </p>
 
-    <a href="/productos" class="btn btn-light btn-lg mt-3">
-        Ver Productos
-    </a>
-</section>
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/images/banner.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/images/banner.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/images/banner.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
-<section class="row text-center">
 
-    <article class="col-md-4 mb-4">
-        <div class="card h-100 shadow-sm">
+<section class="container mb-5">
 
-            <div class="card-body">
-                <h2 class="h4">
-                    Calidad Premium
-                </h2>
-
-                <p>
-                    Trabajamos con prendas cómodas, modernas y de excelente calidad.
-                </p>
-            </div>
-
-        </div>
-    </article>
-
-    <article class="col-md-4 mb-4">
-        <div class="card h-100 shadow-sm">
-
-            <div class="card-body">
-                <h2 class="h4">
-                    Envíos a Todo el País
-                </h2>
-
-                <p>
-                    Realizamos envíos rápidos y seguros a toda Argentina.
-                </p>
-            </div>
-
-        </div>
-    </article>
-
-    <article class="col-md-4 mb-4">
-        <div class="card h-100 shadow-sm">
-
-            <div class="card-body">
-                <h2 class="h4">
-                    Nuevas Colecciones
-                </h2>
-
-                <p>
-                    Actualizamos constantemente nuestro catálogo con nuevos diseños.
-                </p>
-            </div>
-
-        </div>
-    </article>
-
-</section>
-
-<section class="mt-5">
-
-    <div class="bg-light p-5 rounded shadow-sm">
-
-        <h2 class="mb-3">
-            Sobre Nosotros
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold">
+            Productos Destacados
         </h2>
+    </div>
 
-        <p>
-            Somos una marca enfocada en el estilo urbano moderno. 
-            Buscamos ofrecer ropa cómoda, auténtica y accesible para quienes aman la moda.
-        </p>
+    <div class="row">
+
+        @foreach($productos as $producto)
+
+        <article class="col-md-4 mb-4">
+
+            <div class="card h-100 shadow-sm border-0">
+
+                <img 
+                    src="{{ url('images/' . $producto->imagen) }}"
+                    class="card-img-top"
+                    alt="{{ $producto->nombre }}"
+                    style="height: 350px; object-fit: cover;"
+                >
+
+                <div class="card-body">
+
+                    <span class="badge bg-dark mb-2">
+                        {{ $producto->categoria }}
+                    </span>
+
+                    <h3 class="h5 card-title">
+                        {{ $producto->nombre }}
+                    </h3>
+
+                    <p class="card-text text-muted">
+                        {{ $producto->descripcion }}
+                    </p>
+
+                </div>
+
+                <div class="card-footer bg-white border-0">
+
+                    <div class="d-flex justify-content-between align-items-center">
+
+                        <span class="fw-bold fs-5">
+                            ${{ $producto->precio }}
+                        </span>
+
+                        <button class="btn btn-dark">
+                            Comprar
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+        @endforeach
+
+    </div>
+
+</section>
+
+<section class="bg-light rounded p-5 shadow-sm">
+
+    <div class="row align-items-center">
+
+        <div class="col-md-6">
+
+            <h2 class="fw-bold mb-3">
+                Moda Urbana Moderna
+            </h2>
+
+            <p class="text-muted">
+                En Tienda Urbana ofrecemos prendas modernas, cómodas y con estilo streetwear.
+                Nuestro objetivo es brindar ropa de calidad para quienes buscan destacar con un look auténtico.
+            </p>
+
+        </div>
+
+        <div class="col-md-6 text-center">
+
+            <img 
+                src="{{ url('images/banner.png') }}"
+                alt="Moda Urbana"
+                class="img-fluid rounded"
+            >
+
+        </div>
 
     </div>
 
