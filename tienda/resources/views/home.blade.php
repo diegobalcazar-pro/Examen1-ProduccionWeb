@@ -80,7 +80,7 @@
 
         <p>
             Somos una marca enfocada en el estilo urbano moderno. 
-            Buscamos ofrecer ropa cómoda, auténtica y accesible para quienes aman la moda streetwear.
+            Buscamos ofrecer ropa cómoda, auténtica y accesible para quienes aman la moda.
         </p>
 
     </div>
