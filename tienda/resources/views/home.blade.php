@@ -14,13 +14,13 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="/images/banner1.png" class="d-block w-100" alt="envios gratis">
+      <img src="/images/banner1.png" class="d-block w-100" alt="botines puma">
     </div>
     <div class="carousel-item">
-      <img src="/images/banner2.png" class="d-block w-100" alt="botines puma">
+      <img src="/images/banner2.png" class="d-block w-100" alt="camiseta retro argentina 2006">
     </div>
     <div class="carousel-item">
-      <img src="/images/banner3.png" class="d-block w-100" alt="camiseta retro argentina 2006">
+      <img src="/images/banner3.png" class="d-block w-100" alt="envios gratis">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
