@@ -16,7 +16,9 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-black shadow-sm py-3 px-5">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/">Urban Sport</a>
+        <a class="navbar-brand" href="/">
+          <img src="/images/logo.png" alt="logo" width="90rem">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
