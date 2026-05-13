@@ -36,7 +36,7 @@
 
 .card-noticia:hover {
     border-left: 5px solid #000;
-    transform: translateX(10px);
+    transform: none;
 }
 
 .quienes-somos-hero {
@@ -87,7 +87,7 @@ p texted-muted{
 }
 
 .img-fluid.rounded.shadow:hover {
-    transform: scale(1.03) rotate(1deg);
+    transform: none;
     filter: grayscale(0%);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2) !important;
 }

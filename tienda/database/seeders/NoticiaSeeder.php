@@ -17,7 +17,7 @@ class NoticiaSeeder extends Seeder
             [
                 'titulo' => 'Nueva colección invierno',
                 'contenido' => 'Llegaron nuevos buzos',
-                'imagen' => 'buzos.jpg',
+                'imagen' => 'coleccioninvierno.png',
                 'fecha_publicacion' => '2026-05-09',
                 'categoria' => 'Nuevo Ingreso',
                 'created_at' => now(),
@@ -26,7 +26,7 @@ class NoticiaSeeder extends Seeder
             [
                 'titulo' => 'Descuentos de temporada',
                 'contenido' => 'Aprovechá descuentos del 30% en remeras.',
-                'imagen' => 'remeras.jpg',
+                'imagen' => 'descuentoremera.png',
                 'fecha_publicacion' => '2026-05-10',
                 'categoria' => 'Promociones',
                 'created_at' => now(),
@@ -35,7 +35,7 @@ class NoticiaSeeder extends Seeder
             [
                 'titulo' => 'Descuentos de temporada',
                 'contenido' => 'Aprovechá descuentos del 15% en pantalones.',
-                'imagen' => 'pantalones.jpg',
+                'imagen' => 'descuentotemporada.png',
                 'fecha_publicacion' => '2026-05-11',
                 'categoria' => 'Promociones',
                 'created_at' => now(),
@@ -44,7 +44,7 @@ class NoticiaSeeder extends Seeder
             [
                 'titulo' => 'Nueva colección de camperas',
                 'contenido' => 'Llegaron las nuevas camperas.',
-                'imagen' => 'camperas.jpg',
+                'imagen' => 'coleccioncampera.png',
                 'fecha_publicacion' => '2026-05-12',
                 'categoria' => 'Nuevo Ingreso',
                 'created_at' => now(),
