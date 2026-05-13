@@ -1,15 +1,18 @@
 <x-layout>
-
+    
+    <!-- Titulo de la ventana -->
     <x-slot:title>
         Quienes Somos
     </x-slot:title>
 
+    <!-- Titulo de la pagina -->
     <section class="quienes-somos-hero d-flex align-items-center justify-content-center">
-    <div class="container">
-        <h1 class="display-3 fw-bold text-white text-center">Quiénes Somos</h1>
-    </div>
+        <div class="container">
+            <h1 class="display-3 fw-bold text-white text-center">Quiénes Somos</h1>
+        </div>
     </section>
 
+    <!-- Tablas de quienes somos e imagenes -->
     <section class="py-5">
         <div class="container text-center">
 
