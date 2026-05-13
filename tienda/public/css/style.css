@@ -1,3 +1,8 @@
+.secction-mundial {
+    background-color: lightslategrey;
+    font-size: 1.2rem;
+}
+
 .noticias-hero {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/fondotitulo.png');
     background-color: #1a1a1a;

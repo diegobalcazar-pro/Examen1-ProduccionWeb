@@ -5,36 +5,41 @@
 </x-slot:title>
 
 
-
-<div id="carouselExampleIndicators" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="/images/banner1.png" class="d-block w-100" alt="botines puma">
+<section>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/images/banner1.png" class="d-block w-100" alt="botines puma">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/banner2.png" class="d-block w-100" alt="camiseta retro argentina 2006">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/banner3.png" class="d-block w-100" alt="envios gratis">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-    <div class="carousel-item">
-      <img src="/images/banner2.png" class="d-block w-100" alt="camiseta retro argentina 2006">
-    </div>
-    <div class="carousel-item">
-      <img src="/images/banner3.png" class="d-block w-100" alt="envios gratis">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+</section>
 
-
-<section class="container mb-5">
+<section class="container mb-5 py-4">
 
     <div class="d-flex justify-content-between align-items-center mb-4">
         <h2 class="fw-bold">
@@ -99,7 +104,7 @@
 
 </section>
 
-<section class="bg-light rounded p-5 shadow-sm">
+<section class="secction-mundial rounded p-5">
 
     <div class="row align-items-center">
 
