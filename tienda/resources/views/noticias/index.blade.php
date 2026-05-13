@@ -13,7 +13,6 @@
     </div>
 </section>
 
-<!-- Añadimos este contenedor para separar y centrar las noticias -->
 <main class="container mt-5"> 
     <div class="row">
         @foreach($noticias as $noticia)
