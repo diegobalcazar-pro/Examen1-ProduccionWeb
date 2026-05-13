@@ -1,15 +1,24 @@
 <?php
 
+//Define el espacio de nombres donde se encuentran los seeders de la base de datos.
 namespace Database\Seeders;
 
+//Se utiliza para evitar eventos automáticos durante la ejecución de seeders.
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+
+//Importa la clase Seeder de Laravel.
+//Permite crear seeders para insertar datos en la base de datos.
 use Illuminate\Database\Seeder;
+
+//Importa la clase DB para realizar consultas directas a la base de datos.
 use Illuminate\Support\Facades\DB;
 
+//Define el seeder ProductoSeeder.
+//Este seeder se encarga de cargar productos en la base de datos.
 class ProductoSeeder extends Seeder
 {
     /**
-     * Run the database seeds.
+     * Método principal que ejecuta la inserción de datos.
      */
     public function run(): void
     {
