@@ -4,9 +4,10 @@
         Quienes Somos
     </x-slot:title>
 
-    <section>
-        <h1 class="row justify-content-center">Quiénes Somos</h1>
-
+    <section class="quienes-somos-hero d-flex align-items-center justify-content-center">
+    <div class="container">
+        <h1 class="display-3 fw-bold text-white text-center">Quiénes Somos</h1>
+    </div>
     </section>
 
     <section class="py-5">
@@ -37,7 +38,7 @@
 
                 <div class="col-6 col-sm-4 mb-4">
                     <p>
-                        En <strong>Tienda Urbana</strong>, no seguimos tendencias; las hackeamos. Nuestra misión es
+                        En <strong>Urban Sport</strong>, no seguimos tendencias; las hackeamos. Nuestra misión es
                         fusionar la comodidad del deporte con la sofisticación de la cultura underground. Cada
                         prenda que seleccionamos está diseñada para resistir el ritmo de la vida contemporánea,
                         priorizando la durabilidad y la expresión personal. No somos solo una marca de ropa.
